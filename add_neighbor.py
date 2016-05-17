@@ -19,7 +19,7 @@ def main(argv):
 
 if __name__ == '__main__':
     if (len(sys.argv) != 3):
-        print "Usage: python neighbor_add.py [neighbor_address] [peer_as]"
+        print "Usage: python add_neighbor.py [neighbor_address] [peer_as]"
         sys.exit()
     else:
         main(sys.argv)
